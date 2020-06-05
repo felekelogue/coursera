@@ -30,7 +30,7 @@ padding-right: 6px;
     .col-lg-3{
         width: 33.33%;
     }
-    @media (min-width: 768px) and (min-width:991px){
+    @media (min-width: 768px) and (max-width:991px){
         .col-md-1,.col-md-2,.col-md-3 {
             float: left;
             padding: 10px;
@@ -57,11 +57,13 @@ padding-right: 6px;
         background-color: rgb(100, 237, 225);
         border: 1px solid black;
        width: 55px;
-       height: 32px;
+       height: 28px;
        margin: 0px;
        position: absolute;
        top: 0px;
        right: 0px;
+       padding-top: 3px;
+       font-weight: bold;
 
         
 
@@ -69,23 +71,27 @@ padding-right: 6px;
     #header2{
         background-color: darkseagreen;
         border: 1px solid black;
-        width: 67px;
-        height: 32px;
+        width: 76px;
+        height: 28px;
         margin: 0px;
         position: absolute;
         top: 0px;
         right: 0px;
+        padding-top: 3px;
+        font-weight: bold;
 
     }
     #header3{
         background-color: deepskyblue;
         border: 1px solid black;
         width: 55px;
-        height: 32px;
+        height: 28px;
         margin: 0px;
         position: absolute;
         top: 0px;
         right: 0px;
+        padding-top: 3px;
+        font-weight: bold;
        
     }
     .pp{
